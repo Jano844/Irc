@@ -1,0 +1,16 @@
+CAP LS
+CAP REQ :multi-prefix sasl
+CAP END
+PASS :1234|NICK steven|USER Steven 0 irc.unknown.net :1,8Steven Lippert
+
+
+JOIN #test
+MODE #test
+WHO #test
+MODE #test b
+MODE #test
+
+
+PART #test :No boundaries on the net!
+
+PRIVMSG #Jano :Hello World I am SLIPPERY
